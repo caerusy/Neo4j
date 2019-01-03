@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div th:fragment="nav">
+
+    <div class="columnLeftMenu">
+
+        <h6 ><span class="f-right"></span>系统管理</h6>
+        <ul >
+            <li><a th:classappend="${page == 'jgxx/index' ? 'currentPageNav' : ''}"
+             th:href="@{/jgxx/index}">机构管理</a></li>
+             <li><a th:classappend="${page == 'officer/index' ? 'currentPageNav' : ''}"
+             th:href = "@{/officer/index}">工作人员管理</a></li>
+             <li><a th:classappend="${page == 'criminal/index' ? 'currentPageNav' : ''}"
+             th:href = "@{/criminal/index}">矫正人员管理</a></li>
+           
+        </ul>
+    </div>
+</div>
+</body>
+</html>

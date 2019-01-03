@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: web
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: AAA
+Implementation-Vendor-Id: com.test
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://projects.spring.io/spring-boot/neo4j-social
+ /web/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
